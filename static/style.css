@@ -1,0 +1,84 @@
+/* style.css */
+
+/* Body styles */
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="file"] {
+    display: block;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.image-wrapper {
+    flex-basis: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.image-wrapper h2 {
+    margin-bottom: 10px;
+}
+
+.image-wrapper img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+

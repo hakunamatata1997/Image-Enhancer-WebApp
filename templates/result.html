@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enhanced Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Enhanced Image</h1>
+        <div class="image-container">
+            <div class="image-wrapper">
+                <h2>Before</h2>
+                <img src="{{ before_image_path }}" alt="Before">
+            </div>
+            <div class="image-wrapper">
+                <h2>After</h2>
+                <img src="{{ after_image_path }}" alt="After">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
