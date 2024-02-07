@@ -31,6 +31,12 @@ Upload an image file (.jpg, .jpeg, or .png) and select the desired model version
 
 Click the "Enhance" button to process the image and view the enhanced result.
 
+Web View:
+![Home](/examples/home.png "Home View")
+
+![Results](/examples/results.png "Results View")
+
+
 Folder Structure:
 
 app.py: The main Flask application file.
